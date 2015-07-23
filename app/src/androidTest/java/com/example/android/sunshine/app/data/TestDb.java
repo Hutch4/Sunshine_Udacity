@@ -112,6 +112,7 @@ public class TestDb extends AndroidTestCase {
         also make use of the ValidateCurrentRecord function from within TestUtilities.
     */
     public void testLocationTable() {
+
         insertLocation();
     }
 
