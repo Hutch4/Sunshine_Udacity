@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_temperature_measurement_types">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_location_default"
+        android:inputType="text"
+        android:key="@string/pref_location_key"
+        android:singleLine="true"
+        android:title="@string/pref_location_label" />
+
+    <ListPreference
+        android:key="@string/pref_temperature_key"
+        android:title="@string/pref_temperature_title"
+        android:entries="@array/settings_temperature_measurement_types"
+        android:entryValues="@array/settings_temperature_measurement_types"
+        android:defaultValue="@string/pref_temperature_default"
+        />
+
+</PreferenceScreen>
